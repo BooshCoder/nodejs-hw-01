@@ -8,3 +8,4 @@ export const removeAllContacts = async () => {
     console.error('Error removing contacts:', error.message);
   }
 };
+removeAllContacts();

@@ -18,3 +18,4 @@ export const removeLastContact = async () => {
     console.error('Error removing last contact:', error.message);
   }
 };
+removeLastContact();
